@@ -2,7 +2,7 @@ import streamlit as st
 
 from database.mongodb import (
     students_collection,
-    marks_collection
+    mark_collection
 )
 
 from utils.grade import calculate_grade
